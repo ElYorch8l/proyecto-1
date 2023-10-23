@@ -1,0 +1,81 @@
+body{
+    background-color: white;
+}
+h1{
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+ul{
+    background-color:black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+    padding-left: 50px;    
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+li{
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color:rgb(181, 10, 249);
+    
+    
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid white;
+}
+
+label, input, textarea {
+    display: block;
+    margin: 10px 0;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid red;
+}
+
+input[type="submit"] {
+    background-color:black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: black;
+}
+h4{
+ text-align: center;
+}
+footer{
+    background-color:blue;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+h6{
+    font-size: xx-large;
+}
+@media (max-width: 1000px) {
+    nav ul {
+        text-align: center;
+        padding: 10px 0;
+    }
+    
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    
+}
